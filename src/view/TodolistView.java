@@ -3,7 +3,7 @@ package view;
 import service.TodolistService;
 import util.InputUtil;
 
-public class TodolistView {
+public class TodolistView extends TodoListViewParent {
 
     public TodolistView(TodolistService todolistService) {
         this.todolistService = todolistService;

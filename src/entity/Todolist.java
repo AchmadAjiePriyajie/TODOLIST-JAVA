@@ -10,7 +10,7 @@ public class Todolist {
     public void setTodo(String todo) {
         this.todo = todo;
     }
-
+ 
     public String getTodo() {
         return todo;
     }
